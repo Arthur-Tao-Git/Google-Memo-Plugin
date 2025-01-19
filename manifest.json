@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "快捷备忘录",
+  "version": "1.0",
+  "description": "一个简单的备忘录和网址管理工具",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "clipboardWrite",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open-memo": {
+      "suggested_key": {
+        "default": "Ctrl+U",
+        "mac": "Command+U"
+      },
+      "description": "打开备忘录"
+    },
+    "save-url": {
+      "suggested_key": {
+        "default": "Ctrl+I",
+        "mac": "Command+I"
+      },
+      "description": "保存当前网址"
+    }
+  }
+} 
