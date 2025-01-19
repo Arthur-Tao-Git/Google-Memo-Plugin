@@ -1,15 +1,34 @@
-📌 插件名称：简易备忘录（Notepad Plugin）
+# 📌 Notepad Plugin
 
-📝 功能简介： 这是一款简易备忘录插件 让你可以快速记录重要的信息、网址或想法，方便随时查看和管理。支持快捷键操作，让你高效存储内容，无需额外打开应用。
+## 📝 Description
+This is a simple notepad plugin that allows you to quickly record important information, URLs, or ideas for easy access and management. It supports **keyboard shortcuts**, enabling efficient note-taking without opening additional applications.
 
-🔹 主要功能：
-✏ 快速输入：直接在插件内输入备忘录内容，点击“添加”即可保存。  
-🔗 网址存储：最多可存储 3 条常用网址，便于快速访问。  
-🖱 快捷操作：  
-Command + U 👉 打开备忘录  
-Command + I 👉 保存当前网址  
-📂 简单管理：支持“编辑”和“删除”功能，让你随时更新备忘录内容。  
-⚡ 适用场景：
-1.临时记录待办事项
-2.存储常用网址
-3.记录灵感和笔记
+## 🔹 Key Features
+- ✏ **Quick Input:** Directly enter notes in the plugin and click "Add" to save.
+- 🔗 **URL Storage:** Save up to **3 frequently used URLs** for quick access.
+- 🖱 **Shortcut Operations:**
+  - **Command + U** 👉 Open the notepad
+  - **Command + I** 👉 Save the current URL
+- 📂 **Easy Management:** Supports "Edit" and "Delete" functions, allowing you to update notes at any time.
+
+## ⚡ Use Cases
+1. **Temporarily recording to-do items**
+2. **Storing frequently visited websites**
+3. **Saving inspiration and notes**
+
+## 🚀 Installation Guide
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Arthur-Tao-Git/Google-Memo-Plugin.git
+   ```
+2. **Open Chrome Extensions Page**: Navigate to `chrome://extensions/`
+3. **Enable Developer Mode**
+4. **Load Unpacked Extension**
+5. **Select the project folder to complete the installation**
+
+## 🛠 Contribution
+Feel free to contribute by submitting issues or pull requests!
+
+## 📄 License
+This project is licensed under the MIT License.
+
